@@ -1,0 +1,51 @@
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 1em;
+  background-color: #404040; }
+
+/*=== Landing Page Style ===*/
+.intro {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://picsum.photos/1200/?random);
+  background-position: center;
+  background-size: cover;
+  display: table; }
+  .intro__inner {
+    display: table-cell;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: auto;
+    vertical-align: middle;
+    text-align: center; }
+    .intro__inner__content {
+      margin: auto; }
+      .intro__inner__content__main-header {
+        font-size: 3em;
+        font-family: sans-serif;
+        font-weight: 400;
+        color: #FFF; }
+      .intro__inner__content__sub-header {
+        font-size: 2em;
+        font-family: sans-serif;
+        font-weight: 200;
+        color: #FFF; }
+    .intro__inner__btn {
+      margin: 4em auto;
+      width: 100px;
+      padding: 1em;
+      border: solid 2px #03E67E;
+      border-radius: 3px;
+      color: #03E67E;
+      font-family: sans-serif;
+      font-weight: 400;
+      cursor: pointer;
+      transition: 0.3s; }
+      .intro__inner__btn:hover {
+        border-color: #F23C4F;
+        color: #F23C4F;
+        transition: 0.3s; }
+
+/*# sourceMappingURL=landing-page.css.map */
