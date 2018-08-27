@@ -1,0 +1,66 @@
+@import 'variables';
+
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 1em;
+  background-color: $color-primary;
+}
+
+/*=== Landing Page Style ===*/
+
+.intro {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://picsum.photos/1200/?random);
+  background-position: center;
+  background-size: cover;
+  display: table;
+
+  &__inner {
+    display: table-cell;
+    background-color: rgba(0,0,0,0.7);
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+
+    &__content {
+      margin: auto;
+
+      &__main-header {
+        font-size: 3em;
+        font-family: sans-serif;
+        font-weight: 400;
+        color: $heading-primary;
+      }
+
+      &__sub-header {
+        font-size: 2em;
+        font-family: sans-serif;
+        font-weight: 200;
+        color: $heading-secondary;
+      }
+    }
+
+    &__btn {
+      margin: 4em auto;
+      width: 100px;
+      padding: $spacing-vertical-sm;
+      border: solid 2px $button-primary;
+      border-radius: 3px;
+      color: $button-primary;
+      font-family: sans-serif;
+      font-weight: 400;
+      cursor: pointer;
+      transition: 0.3s;
+
+      &:hover {
+        border-color: $button-hover;
+        color: $button-hover;
+        transition: 0.3s;
+      }
+    }
+  }
+}
