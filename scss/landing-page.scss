@@ -21,26 +21,26 @@ html, body {
 
   &__inner {
     display: table-cell;
-    background-color: rgba(0,0,0,0.7);
+    background-image: $color-gradient;
     margin: auto;
     vertical-align: middle;
-    text-align: center;
 
     &__content {
       margin: auto;
+      text-align: center;
 
       &__main-header {
         font-size: 3em;
-        font-family: sans-serif;
-        font-weight: 400;
-        color: $heading-primary;
+        font-family: $font-family-sans-serif;
+        font-weight: $font-weight-sm;
+        color: $color-white;
       }
 
       &__sub-header {
         font-size: 2em;
         font-family: sans-serif;
-        font-weight: 200;
-        color: $heading-secondary;
+        font-weight: $font-weight-xs;
+        color: $color-white;
       }
     }
 
@@ -51,8 +51,9 @@ html, body {
       border: solid 2px $button-primary;
       border-radius: 3px;
       color: $button-primary;
-      font-family: sans-serif;
-      font-weight: 400;
+      font-family: $font-family-sans-serif;
+      font-weight: $font-weight-sm;
+      text-align: center;
       cursor: pointer;
       transition: 0.3s;
 
